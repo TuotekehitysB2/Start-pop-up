@@ -1,0 +1,11 @@
+display = pygame.display.set_mode((1920, 1080)) #display
+ 
+image = pygame.image.load('start.png') #pop-up image
+ 
+display.blit(image,(540,200)) #Image place on display window
+ 
+pygame.time.wait(600) #How long until image shows up
+
+pygame.display.flip() #The thing that makes the image show up
+    
+pygame.time.wait(1500) #Time until image closes
